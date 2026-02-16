@@ -5,10 +5,10 @@ description: фыва
 id: task-049caa19
 position: 0
 priority: medium
-status: todo
+status: done
 tags: []
 title: Тест 123
-updated_at: '2026-02-16T19:17:03.959860+00:00'
+updated_at: '2026-02-16T19:49:58.105002+00:00'
 ---
 
 # ыва

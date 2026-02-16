@@ -9,6 +9,7 @@ from contextlib import asynccontextmanager
 
 from app.config import settings
 from app.routers import tasks, ai, calendar, telegram
+from app.routers.drive import router as drive_router
 
 
 @asynccontextmanager
@@ -40,6 +41,7 @@ app.add_middleware(
 # Routers
 app.include_router(tasks, prefix="/api/tasks", tags=["tasks"])
 app.include_router(ai, prefix="/api/ai", tags=["ai"])
+app.include_router(drive_router, prefix="/api/drive", tags=["drive"])
 app.include_router(calendar, prefix="/api/calendar", tags=["calendar"])
 app.include_router(telegram, prefix="/api/telegram", tags=["telegram"])
 

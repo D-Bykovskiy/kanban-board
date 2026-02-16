@@ -5,10 +5,10 @@ description: ''
 id: task-c72fbc26
 position: 0
 priority: medium
-status: todo
+status: in_progress
 tags: []
 title: Тести 2
-updated_at: '2026-02-16T19:17:56.528633+00:00'
+updated_at: '2026-02-16T19:49:58.926103+00:00'
 ---
 
 # Тест 2
